@@ -93,6 +93,10 @@ echo $grid->render();
 
 In this example, `SimpleGrid::fromDatabase` is used to create a new `SimpleGrid` instance connected to a MySQL database. The `mysqlQuery` method is then used to execute a SELECT query on the `users` table, selecting the `id`, `name`, and `email` columns. The `render` method is finally called to generate the HTML for the data grid.
 
+## Screenshots
+
+[![N|Solid](https://github.com/masterfermin02/simple-data-grid/blob/main/screen_shot/Screenshot.png)](https://github.com/masterfermin02/simple-data-grid/)
+
 ## Using laravel model
     
 ```php
